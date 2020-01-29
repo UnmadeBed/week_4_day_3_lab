@@ -1,0 +1,8 @@
+<h1> All the potters: </h1>
+
+<% @students.each do |person| %>
+<p>Name: <%= person.full_name() %></p>
+<p>Age: <%= person.age %> </p>
+<p>House: <%= person.house %> </p>
+
+<% end %>
